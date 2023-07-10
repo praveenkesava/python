@@ -9,10 +9,10 @@ def can_obtain_string(str1, str2):
 
     return j == len(str2)
 
-string1 = input("Enter the first string: ")
-string2 = input("Enter the second string: ")
+s1 = input("Enter the first string: ")
+s2 = input("Enter the second string: ")
 
-if can_obtain_string(string1, string2):
+if can_obtain_string(s1, s2):
     print("YES")
 else:
     print("NO")
