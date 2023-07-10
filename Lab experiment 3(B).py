@@ -4,8 +4,8 @@ def is_ascending(numbers):
             return False
     return True
 
-numbers = list(map(int,input("Enter the list of numbers:")))
-if is_ascending(numbers):
+num = list(map(int,input("Enter the list of numbers:")))
+if is_ascending(num):
     print("The list is in ascending order.")
 else:
     print("The list is not in ascending order.")
